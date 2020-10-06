@@ -1,0 +1,51 @@
+.Search .celLink,
+.farLink {
+  font-family: "Abel", sans-serif;
+  color: #f3e6e3;
+  text-align: center;
+  font-weight: 900;
+  display: inline-block;
+  background: rgba(9, 2, 9, 0.7);
+  box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  margin: 10px 3px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: none;
+}
+.Search .farLink:hover,
+.celLink:hover {
+  background: rgb(255, 218, 192);
+  color: rgb(9, 2, 9);
+  text-decoration: none;
+}
+
+.Search .cel-fahr {
+  float: right;
+  margin: 0 10px;
+  padding: 1px 9px;
+  /*box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.3);*/
+  opacity: 0.9;
+}
+
+.Search form.change-city {
+  float: right;
+  margin: 0;
+  background: rgba(196, 188, 206, 0.1);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #fcfafb;
+  padding: 10px;
+  opacity: 0.9;
+  font-family: "Abel", sans-serif;
+}
+.Search button.btn {
+  background: rgba(196, 188, 206, 0.4);
+  border-color: rgba(196, 188, 206, 0.4);
+  margin-left: 10px;
+  transition: all 175ms ease-in-out;
+  cursor: pointer;
+}
+.Search button.btn:hover {
+  background: rgb(255, 218, 192);
+  color: rgb(9, 2, 9);
+}
