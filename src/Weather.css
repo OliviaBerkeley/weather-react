@@ -27,11 +27,12 @@
   font-family: "Abel", sans-serif;
   background: rgba(9, 2, 9, 0.4);
   margin: 5px auto;
+  border-radius: 30px;
   box-shadow: 3px 3px 10px 0 rgba(3, 3, 3, 0.3);
   transition: all 175ms ease-in-out;
 }
 .Weather ul:hover {
-  background: rgba(75, 86, 76, 0.5);
+  background: rgba(63, 53, 92, 0.5);
 }
 
 .Weather div.current-temp p {
@@ -76,5 +77,5 @@
 .main-temp-icon {
   display: inline;
   max-height: 75px;
-  margin: 2px 10px;
+  margin: 2px 10px 15px;
 }

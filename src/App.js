@@ -11,7 +11,26 @@ function App() {
       <div className="container">
         <Search />
         <Weather />
-      </div>
+      </div>{" "}
+      <p className="coded-by">
+        <a
+          href="https://github.com/OliviaBerkeley/weather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="git-hub-link"
+        >
+          Open-source code
+        </a>{" "}
+        by{" "}
+        <a
+          href="https://github.com/OliviaBerkeley"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="git-hub-profile"
+        >
+          Olivia Goodwin
+        </a>
+      </p>
     </div>
   );
 }

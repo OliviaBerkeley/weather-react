@@ -27,3 +27,30 @@ body {
   border-radius: 4px;
   box-shadow: 4px 7px 9px rgba(19, 12, 12, 0.4);
 }
+.App .git-hub-link,
+.git-hub-profile {
+  color: #f3e6e3;
+  background-color: rgba(63, 53, 92, 0.5);
+  border-radius: 30px;
+  border: 1px solid rgba(63, 53, 92, 0.9);
+  padding: 15px;
+  margin: 2px 6px;
+  transition: all 200ms ease-in-out;
+}
+.App .git-hub-link:hover,
+.git-hub-profile:hover {
+  color: rgba(63, 53, 92, 0.9);
+  background-color: rgba(243, 230, 227, 0.7);
+  text-decoration: none;
+  border: 1px solid rgba(63, 53, 92, 0.9);
+}
+.App .coded-by {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  background-color: rgba(63, 53, 92, 0.3);
+  color: #f3e6e3;
+  padding: 15px;
+  max-width: 400px;
+  border-radius: 30px;
+}
